@@ -8,9 +8,12 @@ print("(Please input your response as shown above.)")
 response= input(">>")
 
 if response == "hyp":
-    print("Please inpput varible A")
+    print("------------------------------------------------------------")
+    print(".............Solving for the hypothnuse.............")
+    print("------------------------------------------------------------")
+    print("Please input the value of varible A")
     a=int(input(">>"))
-    print("please input varible B")
+    print("please input the value of varible B")
     b=int(input(">>"))
 
     x=a**2
@@ -24,10 +27,13 @@ if response == "hyp":
     print("------------------------------------------------------------")
 else:
     if response == "leg B":
-        print ("please input varible A")
+        print("------------------------------------------------------------")
+        print(".............Solving for the leg B.............")
+        print("------------------------------------------------------------")
+        print ("please input the value of varible A")
         b2= int(input(">>"))
 
-        print ("please input varible C / hypothnuse.")
+        print ("please input the value of varible C / hypothnuse.")
         c2= int(input(">>"))
 
         b3=b2**2
@@ -43,10 +49,13 @@ else:
 
     else:
         if response == "leg A":
-            print ("please input varible B")
+            print("------------------------------------------------------------")
+            print(".............Solving for the leg A.............")
+            print("------------------------------------------------------------")
+            print ("please input the value of varible B")
             b4=int(input(">>"))
 
-            print ("please input varible C / hypothnuse.")
+            print ("please input the value of varible C / hypothnuse.")
             c4= int(input(">>"))
 
             b5=b4**2
